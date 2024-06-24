@@ -27,7 +27,26 @@ const Navbar = () => {
             open ? "" : "top-[-490px]"
           }`}
         >
-          
+           <div className="text-xl md:ml-8 md:my-0 my-7 hover:bg-gray-600 hover:text-red-600 p-1 rounded-lg">
+            <a className="hover:text-red-600
+ text-white-800 md:text-white hover:no-underline cursor-pointer ">Home</a>
+          </div>
+          <div className="text-xl md:ml-8 md:my-0 my-7 hover:bg-gray-600 p-1 rounded-lg hover:text-red-600
+">
+            <a className="hover:text-red-600
+ text-white-800 md:text-white hover:no-underline cursor-pointer  ">Movies</a>
+          </div>
+          <div className="hover:text-red-600
+ text-xl md:ml-8 md:my-0 my-7 hover:bg-gray-600 p-1 hover:text-red-600
+ rounded-lg">
+            <a className=" hover:text-red-600
+text-white-800 md:text-white hover:no-underline cursor-pointer ">TV Shows</a>
+          </div>
+          <div className="text-xl md:ml-8 md:my-0 my-7 hover:bg-gray-600 p-1 hover:text-red-600
+ rounded-lg">
+            <a className=" hover:text-red-600
+text-white-800 md:text-white hover:no-underline cursor-pointer ">Top Airing</a>
+          </div>
           </div>
         </div>
       
